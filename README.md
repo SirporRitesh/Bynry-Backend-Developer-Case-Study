@@ -6,7 +6,7 @@
 ### Issues and impact
 1) Missing input validation
 
-  Impact: KeyError or 500 crash on malformed requests ->bad UX and unreliable API.
+    Impact: KeyError or 500 crash on malformed requests ->bad UX and unreliable API.
 
 2) Incorrect money handling (floats / no Decimal)
 
