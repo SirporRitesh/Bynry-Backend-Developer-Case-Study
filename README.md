@@ -87,7 +87,7 @@
 
 ---
 
-## Part 2 — Database schema, questions for product team, and design decisions
+## Part 2 — Database Design 
 Schema (tables, key columns, types, relationships)
 
 1) company
@@ -212,7 +212,7 @@ Q8) Will prices be in one currency or do we need to handle multiple currencies?
 
     - Rationale: prevent partial states and orphaned data.
 
-## Part 3 — Low-stock alerts: business rules, edge cases, and approach
+## Part 3 — API Implementation
 ### Business rules implemented
 1) Threshold varies by product — use product.reorder_threshold.
 
